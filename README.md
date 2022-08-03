@@ -45,3 +45,16 @@ Il sert à affronter le pire. perte de tout ce que j'avais. Comment remonter la 
 <p>La machine SQLVM3 est répliquée de manière asynchrone. Le côté positif est que comme cette base de données est déjà prête, c'est-à-dire qu'elle est déjà à l'intérieur du cluster avec le listenner configuré, il n'est pas nécessaire de modifier quoi que ce soit dans la base de données lorsque le commutateur est activé.
 Le contrôleur de domaine DVVM3, tel qu'il se trouve dans la même forêt, dans le même domaine, est déjà en cours de réplication. Il n'est pas nécessaire de faire quoi que ce soit. </p>
 <p>Toutes les machines de dessin s'authentifient auprès d'AD. Les connexions externes doivent passer par le Front Door qui se trouve sur le bord et qui communique avec des équilibreurs de charge externes, en utilisant des critères de priorité. </p>
+
+<br>
+
+<h2 align="gauche">
+Les Etapes du Projet 
+</h2>
+
+<p> En cours </p>
+
+<br>
+<br>
+
+<p>Atelier du samedi 30/07/2022, promu par TFTEC Prime, Brésil. </p>
