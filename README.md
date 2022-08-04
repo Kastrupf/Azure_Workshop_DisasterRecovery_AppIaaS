@@ -111,12 +111,13 @@ Fonctionnement du Front Door : OK
 </h6>
 <img width="424" alt="image" src="https://user-images.githubusercontent.com/43493818/182926348-3efc654f-0b0f-4782-bbbd-c48636e858dd.png">
 
-
-
-
-<p> En cours </p>
-
 <br>
+
+<h4 align="gauche">
+Fin du Lab
+</h4>
+<p>Suppression des ressources</p>
+<img width="249" alt="image" src="https://user-images.githubusercontent.com/43493818/182931533-26c2f5a1-c474-411f-9fbd-30cf671e3da3.png">
 <br>
 
 <p>Atelier du samedi 30/07/2022, promu par TFTEC Prime, Brésil. </p>
