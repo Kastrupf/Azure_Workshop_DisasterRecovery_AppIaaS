@@ -22,8 +22,8 @@ Le Projet
 Haute Disponibilité
 </h4>
 
-<p> Dans la région USA EST, nous avons une disponibilité de zone élevée (côté gauche du dessin). Nous avons 6 machines dans la même région, soit 3 dans chaque zone. Il s'agit d'atteindre une disponibilité des applications de 99,99 %. </p>
-<p> La haute disponibilité sera assurée par des équilibreurs de charge, avec presque aucun temps d'arrêt des applications. </p>
+<p> Dans la région USA EST, nous avons de la haute disponibilité (côté gauche du dessin). Il y a 6 machines dans la même région, soit 3 dans chaque zone. Il s'agit d'atteindre une disponibilité des applications de 99,99 %. </p>
+<p> La haute disponibilité sera assurée par des équilibreurs de charge, avec reprise après sinistre (DR) pour les applications IaaS sur Azure presque aucun temps d'arrêt des applications. </p>
 <p> L'application utilisée dans le projet est muti tier, ce qui signifie que nous avons d'abord un niveau Web et plus tard un niveau de données (SQL Server). </p>
 <p> L'équilibreur de charge LBWeb01 est public et son rôle est de répartir la charge entre WebVM1 et WebVM2. Il a une adresse IP publique et fait face à la rue (Internet). 
 L'équilibreur de charge LBSQL01 est interne, ce qui signifie que la communication s'effectue uniquement en interne dans l'environnement. L'adresse frontale est une adresse IP interne. </p>
