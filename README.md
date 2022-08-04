@@ -89,6 +89,31 @@ Test de basculement réalisé avec succèss
 Implantation de la structure de Disaster Recovery dans la région SOUTH CENTRAL US sur Azure  
 </h4>
 
+<h6 align="gauche">
+Importation du Runbook d'automatisation du failover du cluster SQL
+</h6>
+<img width="746" alt="image" src="https://user-images.githubusercontent.com/43493818/182917627-11bd0ca7-6061-4547-a4d1-64c0e328a3e2.png">
+
+<h6 align="gauche">
+Validation de l'état de la réplication des VMs
+</h6>
+<img width="746" alt="image" src="https://user-images.githubusercontent.com/43493818/182927428-70a11fb7-8951-4a71-bf45-5288eeafb17c.png">
+
+<br>
+
+<h4 align="gauche">
+Configuration du Front Door
+</h4>
+<img width="616" alt="image" src="https://user-images.githubusercontent.com/43493818/182922066-f5aaadc9-7aad-4c4c-8b00-709a38e42a4a.png">
+
+<h6 align="gauche">
+Fonctionnement du Front Door : OK 
+</h6>
+<img width="424" alt="image" src="https://user-images.githubusercontent.com/43493818/182926348-3efc654f-0b0f-4782-bbbd-c48636e858dd.png">
+
+
+
+
 <p> En cours </p>
 
 <br>
