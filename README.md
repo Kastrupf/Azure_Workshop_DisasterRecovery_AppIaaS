@@ -5,7 +5,7 @@
 </br>
 
 <h2 align="gauche">
-Le Design d'Architecture 
+Le Design de l'Architecture 
 </h2>
 
 ![design](https://user-images.githubusercontent.com/43493818/182216706-1a02e473-08c3-4c63-a429-cd143f3bc2d4.png)
