@@ -27,8 +27,8 @@ Haute Disponibilité
 <p> L'application utilisée dans le projet est muti tier, ce qui signifie que nous avons d'abord un niveau Web et plus tard un niveau de données (SQL Server). </p>
 <p> L'équilibreur de charge LBWeb01 est public et son rôle est de répartir la charge entre WebVM1 et WebVM2. Il a une adresse IP publique et fait face à la rue (Internet). 
 L'équilibreur de charge LBSQL01 est interne, ce qui signifie que la communication s'effectue uniquement en interne dans l'environnement. L'adresse frontale est une adresse IP interne. </p>
-<p>Les deux machines SQL sont standalones. Un cluster de basculement « AlwaysON » sera configuré entre eux afin que toutes les machines aient une copie de disque. Si une machine tombe en panne, une autre la recevra automatiquement. </p>
-<p>Cloud Witness est un compte de stockage. C'est lui qui décidera qui est la machine active. Dans le cadre des meilleures pratiques, physiquement, ce compte sera créé dans une troisième région, qui n'est ni l'EAST US ni le SOUTH CENTRAL US.</p>
+<p>Les deux machines SQL sont standalones. Un basculement « AlwaysON » sera configuré entre eux afin que toutes les machines aient une copie de disque. Si une machine tombe en panne, une autre la recevra automatiquement. </p>
+<p>Cloud Witness est un type de témoin de quorum de cluster de basculement qui utilise Microsoft Azure et il sera dans configuré dans un blob dans une compte de stockage. C'est lui qui décidera qui est la machine active. Dans le cadre des meilleures pratiques, physiquement, ce compte sera créé dans une troisième région, qui n'est ni l'EAST US ni le SOUTH CENTRAL US [https://docs.microsoft.com/fr-fr/windows-server/failover-clustering/deploy-cloud-witness](url).</p>
 <p>Nous avons toujours deux contrôleurs de domaine avec Active Directory Domain Service en réplication standard dans le même domaine.</p>
 
 <br>
@@ -51,6 +51,22 @@ Le contrôleur de domaine DVVM3, tel qu'il se trouve dans la même forêt, dans 
 <h2 align="gauche">
 Les Etapes du Projet 
 </h2>
+
+<h4 align="gauche">
+Implantation et configuration de l'infra du site principal avec de l'haute disponnibilité dans la région EAST US sur Azure  
+</h4>
+
+<h6 align="gauche">
+Availability Zone 1 : WebVM1 + SQLVM1 + DCVM1   
+</h6>
+<img width="842" alt="deployEASTUS" src="https://user-images.githubusercontent.com/43493818/182875558-9647b10b-0def-48fb-9791-b8e886a4aa68.png">
+
+<h6 align="gauche">
+Availability Zone 2 : WebVM2 + SQLVM2 + DCVM2   
+</h6>
+<img width="619" alt="image" src="https://user-images.githubusercontent.com/43493818/182890441-30632c75-c222-4e63-a8f6-a051dda8f8bb.png">
+
+<br>
 
 <p> En cours </p>
 
