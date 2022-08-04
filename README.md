@@ -49,7 +49,7 @@ Le contrôleur de domaine DVVM3, tel qu'il se trouve dans la même forêt, dans 
 <br>
 
 <h2 align="gauche">
-Les Etapes du Projet 
+Quelques etapes du projet 
 </h2>
 
 <h4 align="gauche">
@@ -66,7 +66,28 @@ Availability Zone 2 : WebVM2 + SQLVM2 + DCVM2
 </h6>
 <img width="619" alt="image" src="https://user-images.githubusercontent.com/43493818/182890441-30632c75-c222-4e63-a8f6-a051dda8f8bb.png">
 
+<h4 align="gauche">
+Configuration du Cluster Quorum Cloud Witness sur SQLVM1
+</h4>
+<img width="607" alt="image" src="https://user-images.githubusercontent.com/43493818/182900231-a0299960-3334-42ce-beff-4f5f8406bd9d.png">
+
+<h4 align="gauche">
+Configuration des services sur les deux serveurs SQL
+</h4>
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/43493818/182905571-466a51b1-b8e8-4598-9c65-f515ed5abc63.png">
 <br>
+<img width="501" alt="image" src="https://user-images.githubusercontent.com/43493818/182907174-7f6ddd8f-5627-4a1a-8c27-e31a28412913.png">
+
+<h6 align="gauche">
+Test de basculement réalisé avec succèss 
+</h6>
+<img width="581" alt="image" src="https://user-images.githubusercontent.com/43493818/182912140-e10a77c4-a950-4f6d-9766-19844c8681d3.png">
+
+<br>
+
+<h4 align="gauche">
+Implantation de la structure de Disaster Recovery dans la région SOUTH CENTRAL US sur Azure  
+</h4>
 
 <p> En cours </p>
 
